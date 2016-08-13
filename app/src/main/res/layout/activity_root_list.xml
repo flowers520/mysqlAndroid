@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编号"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:id="@+id/tv_rootId1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:id="@+id/tv_rootName1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:id="@+id/tv_rootSex1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身价"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:id="@+id/tv_rootPrice1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身高"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:id="@+id/tv_rootHeight1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="国籍"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:id="@+id/tv_rootCountry1" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="备注"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textColor="#ff0000"
+            android:id="@+id/tv_rootBz1" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_rootView"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+
